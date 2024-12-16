@@ -98,6 +98,17 @@
   objectType: Item
 
 - type: construction
+  name: lizard plushie slippers
+  id: ClothingShoeSlippersLizard
+  graph: ClothingShoeSlippersLizard
+  startNode: start
+  targetNode: shoes
+  category: construction-category-clothing
+  description: Hey, look! These slippers Weh!
+  icon: { sprite: Clothing/Shoes/Misc/lizard-slippers.rsi, state: icon }
+  objectType: Item
+
+- type: construction
   name: security glasses
   id: ClothingEyesGlassesSecurity
   graph: GlassesSecHUD
