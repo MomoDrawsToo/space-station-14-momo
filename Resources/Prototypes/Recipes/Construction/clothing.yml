@@ -109,6 +109,18 @@
   objectType: Item
 
 - type: construction
+  name: space lizard plushie slippers
+  id: ClothingShoeSlippersSpaceLizard
+  graph: ClothingShoeSlippersSpaceLizard
+  startNode: start
+  targetNode: shoes
+  category: construction-category-clothing
+  description: Hey, look! These slippers Weh in space!
+  icon: { sprite: Clothing/Shoes/Misc/space-lizard-slippers.rsi, state: icon }
+  objectType: Item
+
+
+- type: construction
   name: security glasses
   id: ClothingEyesGlassesSecurity
   graph: GlassesSecHUD

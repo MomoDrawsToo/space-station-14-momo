@@ -1,0 +1,71 @@
+- type: constructionGraph
+  id: ClothingShoeSlippersDuck
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: shoes
+          steps:
+            - tag: ToyRubberDuck
+              name: a rubber ducky
+              icon:
+                sprite: Objects/Fun/ducky.rsi
+                state: icon
+              doAfter: 1
+            - tag: ToyRubberDuck
+              name: a rubber ducky
+              icon:
+                sprite: Objects/Fun/ducky.rsi
+                state: icon
+              doAfter: 1
+    - node: shoes
+      entity: ClothingShoeSlippersDuck
+
+- type: constructionGraph
+  id: ClothingShoeSlippersLizard
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: shoes
+          steps:
+            - tag: PlushieLizard #Weh!
+              name: lizard plushie
+              icon:
+                sprite: Objects/Fun/toys.rsi
+                state: plushie_lizard
+              doAfter: 1
+            - tag: PlushieLizard
+              name: lizard plushie
+              icon:
+                sprite: Objects/Fun/toys.rsi
+                state: plushie_lizard
+              doAfter: 1
+    - node: shoes
+      entity: ClothingShoeSlippersLizard
+
+- type: constructionGraph
+  id: ClothingShoeSlippersSpaceLizard
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: shoes
+          steps:
+            - tag: PlushieSpaceLizard #weh
+              name: space lizard plushie
+              icon:
+                sprite: Objects/Fun/toys.rsi
+                state: plushie_spacelizard
+              doAfter: 1
+            - tag: PlushieSpaceLizard
+              name: space lizard plushie
+              icon:
+                sprite: Objects/Fun/toys.rsi
+                state: plushie_spacelizard
+              doAfter: 1
+    - node: shoes
+      entity: ClothingShoeSlippersSpaceLizard
+
+
+

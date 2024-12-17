@@ -86,6 +86,11 @@
   id: FootstepLizardSlippers
   files:
   - /Audio/Items/Toys/weh.ogg
+
+- type: soundCollection
+  id: FootstepSpaceLizardSlippers
+  files:
+  - /Audio/Items/Toys/muffled_weh.ogg
   
 - type: soundCollection
   id: FootstepHeavy

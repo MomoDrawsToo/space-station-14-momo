@@ -1006,6 +1006,9 @@
   id: PlushieSharkPink
 
 - type: Tag
+  id: PlushieSpaceLizard
+
+- type: Tag
   id: Potato
 
 - type: Tag
