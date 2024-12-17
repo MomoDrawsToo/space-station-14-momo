@@ -119,6 +119,38 @@
   icon: { sprite: Clothing/Shoes/Misc/space-lizard-slippers.rsi, state: icon }
   objectType: Item
 
+- type: construction
+  name: grey shark plushie slippers
+  id: ClothingShoeSlippersGreyShark
+  graph: ClothingShoeSlippersGreyShark
+  startNode: start
+  targetNode: shoes
+  category: construction-category-clothing
+  description: These are by far the fluffiest sharks you've ever had on your feet.
+  icon: { sprite: Clothing/Shoes/Misc/grey-shark-slippers.rsi, state: icon }
+  objectType: Item
+
+- type: construction
+  name: pink shark plushie slippers
+  id: ClothingShoeSlippersPinkShark
+  graph: ClothingShoeSlippersPinkShark
+  startNode: start
+  targetNode: shoes
+  category: construction-category-clothing
+  description: These are by far the fluffiest sharks you've ever had on your feet.
+  icon: { sprite: Clothing/Shoes/Misc/pink-shark-slippers.rsi, state: icon }
+  objectType: Item
+
+- type: construction
+  name: blue shark plushie slippers
+  id: ClothingShoeSlippersBlueShark
+  graph: ClothingShoeSlippersBlueShark
+  startNode: start
+  targetNode: shoes
+  category: construction-category-clothing
+  description: These are by far the fluffiest sharks you've ever had on your feet.
+  icon: { sprite: Clothing/Shoes/Misc/blue-shark-slippers.rsi, state: icon }
+  objectType: Item
 
 - type: construction
   name: security glasses

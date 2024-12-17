@@ -119,6 +119,63 @@
 
 - type: entity
   parent: ClothingShoesBaseButcherable
+  id: ClothingShoeSlippersGreyShark
+  name: gray shark plushie slippers
+  description: These are by far the fluffiest sharks you've ever had on your feet.
+  components:
+  - type: Sprite
+    sprite: Clothing/Shoes/Misc/grey-shark-slippers.rsi
+  - type: Clothing
+    sprite: Clothing/Shoes/Misc/grey-shark-slippers.rsi
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepSharkSlippers
+      params:
+        variation: 0.02
+  - type: Construction
+    graph: ClothingShoeSlippersGreyShark
+    node: shoes
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoeSlippersPinkShark
+  name: pink shark plushie slippers
+  description: These are by far the fluffiest sharks you've ever had on your feet.
+  components:
+  - type: Sprite
+    sprite: Clothing/Shoes/Misc/pink-shark-slippers.rsi
+  - type: Clothing
+    sprite: Clothing/Shoes/Misc/pink-shark-slippers.rsi
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepSharkSlippers
+      params:
+        variation: 0.02
+  - type: Construction
+    graph: ClothingShoeSlippersPinkShark
+    node: shoes
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoeSlippersBlueShark
+  name: blue shark plushie slippers
+  description: These are by far the fluffiest sharks you've ever had on your feet.
+  components:
+  - type: Sprite
+    sprite: Clothing/Shoes/Misc/blue-shark-slippers.rsi
+  - type: Clothing
+    sprite: Clothing/Shoes/Misc/blue-shark-slippers.rsi
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepSharkSlippers
+      params:
+        variation: 0.02
+  - type: Construction
+    graph: ClothingShoeSlippersBlueShark
+    node: shoes
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
   id: ClothingShoesTourist
   name: tourist shoes
   description: These cheap sandals don't look very comfortable.

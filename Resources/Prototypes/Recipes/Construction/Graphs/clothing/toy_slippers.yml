@@ -67,5 +67,72 @@
     - node: shoes
       entity: ClothingShoeSlippersSpaceLizard
 
+- type: constructionGraph
+  id: ClothingShoeSlippersGreyShark
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: shoes
+          steps:
+            - tag: PlushieSharkGrey #rawr
+              name: grey shark soft toy
+              icon:
+                sprite: Objects/Fun/sharkplush.rsi
+                state: grey
+              doAfter: 1
+            - tag: PlushieSharkGrey
+              name: grey shark soft toy
+              icon:
+                sprite: Objects/Fun/sharkplush.rsi
+                state: grey
+              doAfter: 1
+    - node: shoes
+      entity: ClothingShoeSlippersGreyShark
 
+- type: constructionGraph
+  id: ClothingShoeSlippersPinkShark
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: shoes
+          steps:
+            - tag: PlushieSharkPink #rawr
+              name: pink shark soft toy
+              icon:
+                sprite: Objects/Fun/sharkplush.rsi
+                state: pink
+              doAfter: 1
+            - tag: PlushieSharkPink
+              name: pink shark soft toy
+              icon:
+                sprite: Objects/Fun/sharkplush.rsi
+                state: pink
+              doAfter: 1
+    - node: shoes
+      entity: ClothingShoeSlippersPinkShark
+
+- type: constructionGraph
+  id: ClothingShoeSlippersBlueShark
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: shoes
+          steps:
+            - tag: PlushieSharkBlue #rawr
+              name: blue shark soft toy
+              icon:
+                sprite: Objects/Fun/sharkplush.rsi
+                state: blue
+              doAfter: 1
+            - tag: PlushieSharkBlue
+              name: blue shark soft toy
+              icon:
+                sprite: Objects/Fun/sharkplush.rsi
+                state: blue
+              doAfter: 1
+    - node: shoes
+      entity: ClothingShoeSlippersBlueShark
 
