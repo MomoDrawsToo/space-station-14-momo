@@ -153,6 +153,17 @@
   objectType: Item
 
 - type: construction
+  name: bee plushie slippers
+  id: ClothingShoeSlippersBee
+  graph: ClothingShoeSlippersBee
+  startNode: start
+  targetNode: shoes
+  category: construction-category-clothing
+  description: A cute pair of slippers that resembles an even cuter programmer! What kind of monster would grind these up..?
+  icon: { sprite: Clothing/Shoes/Misc/bee-slippers.rsi, state: icon }
+  objectType: Item
+
+- type: construction
   name: security glasses
   id: ClothingEyesGlassesSecurity
   graph: GlassesSecHUD

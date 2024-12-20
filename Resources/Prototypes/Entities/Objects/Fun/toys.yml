@@ -178,6 +178,9 @@
     equippedPrefix: bee
     slots:
     - HEAD
+  - type: Tag
+    tags:
+      - PlushieBee
 
 - type: entity
   parent: BasePlushie

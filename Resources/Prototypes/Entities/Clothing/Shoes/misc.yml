@@ -120,7 +120,7 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoeSlippersGreyShark
-  name: gray shark plushie slippers
+  name: gray shark soft toy slippers
   description: These are by far the fluffiest sharks you've ever had on your feet.
   components:
   - type: Sprite
@@ -139,7 +139,7 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoeSlippersPinkShark
-  name: pink shark plushie slippers
+  name: pink shark soft toy slippers
   description: These are by far the fluffiest sharks you've ever had on your feet.
   components:
   - type: Sprite
@@ -158,7 +158,7 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoeSlippersBlueShark
-  name: blue shark plushie slippers
+  name: blue shark soft toy slippers
   description: These are by far the fluffiest sharks you've ever had on your feet.
   components:
   - type: Sprite
@@ -173,6 +173,41 @@
   - type: Construction
     graph: ClothingShoeSlippersBlueShark
     node: shoes
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoeSlippersBee
+  name: bee plushie slippers
+  description: A cute pair of slippers that resembles an even cuter programmer! What kind of monster would grind these up..?
+  components:
+  - type: Sprite
+    sprite: Clothing/Shoes/Misc/bee-slippers.rsi
+  - type: Clothing
+    sprite: Clothing/Shoes/Misc/bee-slippers.rsi
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepSqueakSlippers
+      params:
+        variation: 0.02
+  - type: Construction
+    graph: ClothingShoeSlippersBee
+    node: shoes
+  - type: Extractable
+    grindableSolutionName: bee
+  - type: SolutionContainerManager
+    solutions:
+      bee:
+        reagents:
+        - ReagentId: GroundBee
+          Quantity: 20
+      food:
+        maxVol: 20
+        reagents:
+        - ReagentId: GroundBee
+          Quantity: 10
+        - ReagentId: Fiber
+          Quantity: 10
+
 
 - type: entity
   parent: ClothingShoesBaseButcherable

@@ -136,3 +136,26 @@
     - node: shoes
       entity: ClothingShoeSlippersBlueShark
 
+- type: constructionGraph
+  id: ClothingShoeSlippersBee
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: shoes
+          steps:
+            - tag: PlushieBee #bzz!
+              name: bee plushie
+              icon:
+                sprite: Objects/Fun/toys.rsi
+                state: plushie_h
+              doAfter: 1
+            - tag: PlushieBee
+              name: bee plushie
+              icon:
+                sprite: Objects/Fun/toys.rsi
+                state: plushie_h
+              doAfter: 1
+    - node: shoes
+      entity: ClothingShoeSlippersBee
+
